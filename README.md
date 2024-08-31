@@ -18,7 +18,7 @@ $ python app.py 10 10
 ## Test
 
 ```
-$ python app_test.py
+$ python -m unittest
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s

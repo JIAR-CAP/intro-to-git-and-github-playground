@@ -20,5 +20,5 @@ jobs:
       - name: Format
         run: ruff format --check
       - name: Test
-        run: python app_test.py
+        run: python -m unittest
 
