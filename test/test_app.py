@@ -1,11 +1,11 @@
 import unittest
 
-import app
+from app import operations
 
 
 class TestApp(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(app.add(10, 10), 20)
+        self.assertEqual(operations.add(10, 10), 20)
 
 
 if __name__ == "__main__":

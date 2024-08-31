@@ -11,7 +11,7 @@ conda install -c conda-forge ruff
 ## Run
 
 ```
-$ python app.py 10 10
+$ python -m app 10 10
 10 + 10 = 20
 ```
 

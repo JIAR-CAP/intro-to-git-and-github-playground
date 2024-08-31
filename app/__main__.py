@@ -1,9 +1,7 @@
 # https://docs.python.org/3/howto/argparse.html#argparse-tutorial
 import argparse
 
-
-def add(x: int, y: int) -> int:
-    return x + y
+from . import operations
 
 
 def main():
@@ -13,7 +11,7 @@ def main():
     args = parser.parse_args()
 
     x, y = args.x, args.y
-    result = add(x, y)
+    result = operations.add(x, y)
     print(f"{x} + {y} = {result}")
 
 
