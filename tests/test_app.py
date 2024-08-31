@@ -1,3 +1,5 @@
+# TODO: Migrate to pytest (https://docs.pytest.org/en/stable)
+# https://docs.python.org/3/library/unittest.html
 import unittest
 
 from app import operations
