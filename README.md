@@ -5,7 +5,7 @@
 Install [Ruff](https://docs.astral.sh/ruff/installation/) (linter and formatter):
 
 ```
-conda install -c conda-forge ruff
+pip install ruff
 ```
 
 ## Run
