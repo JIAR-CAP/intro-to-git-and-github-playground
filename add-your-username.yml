@@ -1,8 +1,4 @@
 # Add your username to this list using a _branch_ based pull request.
-users-from-branch:
-  - aksiksi
-
-# Add your username to this list using a _fork_ based pull request.
-users-from-fork:
+users:
   - aksiksi
 
